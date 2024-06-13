@@ -1,0 +1,4 @@
+#!/bin/sh
+cc -c f.c
+cc -O3 main.c
+objdump -d a.out
